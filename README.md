@@ -1,23 +1,6 @@
 # REST based Performance Test Suite
 
-This repository is an example of a test suite for load testing a REST service with [XLT](https://www.xceptance.com/xlt/). It shows some samples and universal concepts for easier handling of data, configuration, and test composition. It shows what is possible thanks to Java as scripting language on top of the XLT base feature set.
-The test suite demonstrates the following features and functionalities:
-
-**Base XLT Features**
-* Every test case is a JUnit test
-* Use Eclipse or any other IDE to compile, run (as single test user), and debug
-* The tests can run as a normal integration test or as part of a classic build process
-* XLT measures, scales, and paces the testing
-* Handling of test scaling, results collection and report building by XLT
-* Fits your CI/CD pipeline, including comparison against previous runs
-* Comfortable Maven setup
-
-**Enhanced and New Features**
-* Configuration via YAML files supporting a region, locale, and site arrangement
-* Centralized configuration and mapping of objects to support data types
-* Central context for test execution data enabling easier programming
-* Central data store, to pass stored data from one action to another
-* Replayable randomness among test scenario executions
+This repository is standalone Playwright test suite based on a fork of REST load test suite with [XLT](https://www.xceptance.com/xlt/). It shows some samples and universal concepts for easier handling of data, configuration, and test composition. It shows what is possible thanks to Java as scripting language on top of the XLT base feature set.
 
 ### Provided Test Cases
 
